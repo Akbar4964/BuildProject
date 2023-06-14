@@ -1,0 +1,104 @@
+.made {
+    background-color: #1F2334;
+    height: auto;
+    padding-top: 111px;
+
+    &__title {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 35px;
+        line-height: 40px;
+        text-align: center;
+        letter-spacing: 0.36px;
+        color: #F7F7F3;
+    }
+
+    &__text {
+        margin-top: 23px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+        color: rgba(237, 241, 241, 0.7);
+        height: 72px;
+        width: 658px;
+        margin: 0 auto;
+    }
+
+    &__app {
+        margin-top: 53px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 32px;
+        color: #F7F7F3;
+    }
+
+    &__img {
+        background-image: url(/img/madebackgr.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-top: 53px;
+    }
+
+    ul {
+        li {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            color: rgba(247, 247, 243, 0.7);
+            padding-left: 25px;
+            padding-top: 35px;
+
+            input {
+                margin-right: 20px;
+            }
+        }
+    }
+
+    &__main {
+        display: flex;
+        justify-content: center;
+    }
+
+    &__link {
+        padding-top: 35px;
+
+        a {
+
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            color: #AEDEF3;
+        }
+    }
+
+    &__url {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        color: rgba(247, 247, 243, 0.5);
+        padding-left: 46px;
+        padding-top: 8px;
+
+        img {
+            margin-left: 476px;
+        }
+    }
+
+    &__txt {
+        padding-left: 20px;
+        margin-top:  20px;
+        color: rgba(121, 208, 238, 0.9);
+    }
+}

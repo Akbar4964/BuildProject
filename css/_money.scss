@@ -1,0 +1,77 @@
+.money {
+    background-image: url(/img/money-backgr.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 112px;
+
+    &__content {
+        display: flex;
+        margin-left: 96px;
+        padding-top: 67px;
+    }
+
+    &__head {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: 1.4px;
+        text-transform: uppercase;
+        color: #B2ECA1;
+    }
+
+    &__title {
+        margin-top: 11px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 40px;
+        letter-spacing: 0.36px;
+        color: #F7F7F3;
+    }
+
+    &__text {
+        margin-top: 27px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: rgba(237, 241, 241, 0.7);
+    }
+
+    button {
+        margin-top: 30px;
+        height: 35px;
+        width: 210px;
+        border-radius: 9999px;
+        background: #B2ECA1;
+        border: 0;
+
+        a {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            text-align: center;
+            color: #004D42;
+        }
+    }
+
+    a {
+        margin-left: 24px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: #B2ECA1;
+
+        img {
+            margin-left: 8px;
+        }
+    }
+}

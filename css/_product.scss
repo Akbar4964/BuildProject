@@ -1,0 +1,30 @@
+.product {
+    background-color: #004D42;
+    height: auto;
+
+    &__title {
+        padding-top: 111px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 40px;
+        text-align: center;
+        letter-spacing: 0.36px;
+        color: #F7F7F3;
+    }
+
+    &__text {
+        margin-top: 23px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+        color: rgba(237, 241, 241, 0.7);
+        height: 96px;
+        width: 662px;
+        margin: 0 auto;
+    }
+}

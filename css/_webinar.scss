@@ -1,0 +1,51 @@
+.webinar {
+    padding: 15px 0;
+    background-color: rgb(254, 243, 229);
+
+    &__content {
+        display: flex;
+        align-items: center;
+        margin-left: 48px;
+    }
+
+    &__title {
+        background-color: rgb(219, 218, 218);
+        padding: 3px;
+        border-radius: 50px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 12px;
+        letter-spacing: 1.2px;
+        text-transform: uppercase;
+        color: #42423F;
+    }
+
+    &__text {
+        margin-left: 8px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        color: #353532;
+    }
+
+    &__link {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        color: #00835A;
+        text-decoration: underline;
+        text-decoration-color: #00835A;
+        margin-right: 6.1px;
+        margin-left: 4px;
+    }
+
+    &__x-icon {
+        margin-left: 355.03px;
+    }
+}
